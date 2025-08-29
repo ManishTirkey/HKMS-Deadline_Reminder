@@ -6,8 +6,6 @@ from app.services.database_service import get_service_categories
 from pydantic import BaseModel
 from typing import Optional, List
 from fastapi import BackgroundTasks
-from app.services import run_job
-
 
 class ReminderResponse(BaseModel):
     """Reminder Response model"""
