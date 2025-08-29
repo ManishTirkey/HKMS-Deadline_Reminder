@@ -7,10 +7,6 @@ from io import BytesIO
 import requests
 from datetime import datetime
 import pandas as pd
-from app.services.Reminder_utils import (
-    check_essential_columns,
-    check_essential_data
-)
 
 
 def extract_gdrive_ids(url: str) -> Tuple[Optional[str], Optional[str]]:
